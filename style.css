@@ -1,0 +1,38 @@
+img{
+    /* position: absolute;
+  top: -300px;
+     left: 75px;
+ margin: 500px;
+ */
+ width: 100px; 
+ display: flex;
+position: absolute;
+left: 46%;
+ 
+ align-items: center;
+ 
+ }
+p{
+    position: absolute;
+    left: 47.30%;
+    top: 50%;
+    color: var(--secound-color);
+}
+ 
+ 
+ :root{
+     --first-color:  #000000;
+     --secound-color:rgb(190, 190, 192);
+ }
+ .dark{
+     background-color: var(--first-color) ;
+    
+ }
+ p{
+     font-size: 45px;
+     text-align: center;
+ }
+ body{
+     background-color: var(--secound-color);
+   
+ }
